@@ -49,7 +49,6 @@ curl http://localhost:8080/actuator/health
 
 Attempting to cancel an already confirmed order returns **HTTP 409 Conflict**. This is enforced by a domain invariant, not by validation logic in the REST controller.
 
-
 ## Known Limitations
 
 - **In-memory H2 database:** Data is not persisted across application restarts.
